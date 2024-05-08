@@ -52,4 +52,8 @@
     <content_attribute id="money-purchasing">intense</content_attribute>
   </content_rating>
   <launchable type="desktop-id">com.lablicate.OpenChrom.desktop</launchable>
+  <branding>
+    <color type="primary" scheme_preference="light">#ffffff</color>
+    <color type="primary" scheme_preference="dark">#ffffff</color>
+  </branding>
 </component>
