@@ -58,4 +58,8 @@
     <color type="primary" scheme_preference="light">#ffffff</color>
     <color type="primary" scheme_preference="dark">#ffffff</color>
   </branding>
+  <keywords>
+    <keyword>science</keyword>
+    <keyword>chemistry</keyword>
+  </keywords>
 </component>
