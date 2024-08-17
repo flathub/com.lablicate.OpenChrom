@@ -4,46 +4,45 @@ runtime-version: '46'
 sdk: org.gnome.Sdk
 command: openchrom
 finish-args:
-  - --socket=x11
-  - --share=ipc
-  - --device=dri
-  - --share=network
-  - --socket=pulseaudio
-  - --persist=.openchrom
-  - --persist=.eclipseswtchartsettings
-  - --filesystem=/tmp:rw
-
+- --socket=x11
+- --share=ipc
+- --device=dri
+- --share=network
+- --socket=pulseaudio
+- --persist=.openchrom
+- --persist=.eclipseswtchartsettings
+- --filesystem=/tmp:rw
 modules:
-  - name: openchrom
-    buildsystem: simple
-    build-options:
-      strip: false
-      no-debuginfo: true
-    build-commands:
-      - mv openchrom ${FLATPAK_DEST}/openchrom/
-      - mkdir -p ${FLATPAK_DEST}/bin
-      - ln -sf ${FLATPAK_DEST}/openchrom/openchrom ${FLATPAK_DEST}/bin/
-      - install -Dm644 ${FLATPAK_ID}.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
-      - install -Dm644 ${FLATPAK_ID}.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
-      - install -Dm644 ${FLATPAK_ID}.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
-    sources:
-      - type: archive
-        only-arches:
-          - x86_64
-        url: https://products.lablicate.com/openchrom/1.5.0/openchrom-lablicate_linux.x86_64_1.5.0.tar.gz
-        sha256: 6e8d10fa8bb2e23164981d404092e47dbfdbbbc6ac63798eaed8a465bfe6021d
-        strip-components: 0
-        dest: openchrom
-      - type: archive
-        only-arches:
-          - aarch64
-        url: https://products.lablicate.com/openchrom/1.5.0/openchrom-lablicate_linux.aarch64_1.5.0.tar.gz
-        sha256: 3d9dca3b45d9dc30324c683b49abcacac9236b66dbbf6a3801436f65a7b850c5
-        strip-components: 0
-        dest: openchrom
-      - type: file
-        path: com.lablicate.OpenChrom.desktop
-      - type: file
-        path: com.lablicate.OpenChrom.png
-      - type: file
-        path: com.lablicate.OpenChrom.metainfo.xml
+- name: openchrom
+  buildsystem: simple
+  build-options:
+    strip: false
+    no-debuginfo: true
+  build-commands:
+  - mv openchrom ${FLATPAK_DEST}/openchrom/
+  - mkdir -p ${FLATPAK_DEST}/bin
+  - ln -sf ${FLATPAK_DEST}/openchrom/openchrom ${FLATPAK_DEST}/bin/
+  - install -Dm644 ${FLATPAK_ID}.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
+  - install -Dm644 ${FLATPAK_ID}.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/${FLATPAK_ID}.png
+  - install -Dm644 ${FLATPAK_ID}.metainfo.xml ${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml
+  sources:
+  - type: archive
+    only-arches:
+    - x86_64
+    url: https://products.lablicate.com/openchrom/1.5.0/openchrom-lablicate_linux.x86_64_1.5.0.tar.gz
+    sha256: 9a242442d5a96572e3ff5caf8eaf21116db9f964e6baa1a772b224f644e440b1
+    strip-components: 0
+    dest: openchrom
+  - type: archive
+    only-arches:
+    - aarch64
+    url: https://products.lablicate.com/openchrom/1.5.0/openchrom-lablicate_linux.aarch64_1.5.0.tar.gz
+    sha256: 3cc8a0b9f242fa7d67e62a4af56139a6e0bef60115ee292f1190cc79df93c647
+    strip-components: 0
+    dest: openchrom
+  - type: file
+    path: com.lablicate.OpenChrom.desktop
+  - type: file
+    path: com.lablicate.OpenChrom.png
+  - type: file
+    path: com.lablicate.OpenChrom.metainfo.xml
