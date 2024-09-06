@@ -38,8 +38,8 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="1.5.0.20240830" date="2024-08-30">
-      <url>https://github.com/OpenChrom/openchrom/wiki/changelog#20240830</url>
+    <release version="1.5.0.20240906" date="2024-09-06">
+      <url>https://github.com/OpenChrom/openchrom/wiki/changelog#20240906</url>
     </release>
   </releases>
   <url type="homepage">https://openchrom.net/</url>
