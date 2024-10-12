@@ -10,7 +10,7 @@ finish-args:
 - --share=network
 - --socket=pulseaudio
 - --persist=.openchrom
-- --persist=.eclipseswtchartsettings
+- --persist=.eclipse/org.eclipse.swtchart.extensions
 - --filesystem=/tmp:rw
 modules:
 - name: openchrom
