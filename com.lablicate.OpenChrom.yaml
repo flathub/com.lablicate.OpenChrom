@@ -12,6 +12,7 @@ finish-args:
 - --persist=.openchrom
 - --persist=.eclipse/org.eclipse.swtchart.extensions
 - --filesystem=/tmp:rw
+- --talk-name=org.freedesktop.secrets
 modules:
 - name: openchrom
   buildsystem: simple
