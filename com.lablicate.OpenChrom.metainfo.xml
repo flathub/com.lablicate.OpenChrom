@@ -3,7 +3,9 @@
   <id>com.lablicate.OpenChrom</id>
   <name>OpenChrom</name>
   <summary>Chromatography Data System</summary>
-  <developer_name>Lablicate GmbH</developer_name>
+  <developer id="com.lablicate">
+    <name>Lablicate GmbH</name>
+  </developer>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>EPL-1.0</project_license>
   <description>
