@@ -7,7 +7,7 @@
       <name>Lablicate GmbH</name>
    </developer>
    <metadata_license>CC0-1.0</metadata_license>
-   <project_license>EPL-1.0</project_license>
+   <project_license>EPL-2.0</project_license>
    <description>
       <p>OpenChrom® is a vendor independent open source software for chromatography, spectrometry and spectroscopy. It has a strong focus on chromatography and nominal mass spectrometry, but next to GC/MS and GC/FID it has basic support for HPLC-UV/VIS, FTIR, PCR and NMR.</p>
       <p>The base version is free and open source software with most of it curated under the Eclipse ChemClipse umbrella. Its numerous carefully reverse-engineered file format converters for vendors like Agilent, Thermo, PerkinElmer, Shimadzu, Varian, Bruker, ChromTech, Thermo/Finnigan, Waters, CAMAG, ABSciex, MassFinder, EZChrom... are however closed source and have to be installed at runtime accepting the proprietary license terms.</p>
