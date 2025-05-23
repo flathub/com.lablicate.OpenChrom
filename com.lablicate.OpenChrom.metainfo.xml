@@ -40,6 +40,9 @@
       </screenshot>
    </screenshots>
    <releases>
+      <release version="1.5.11" date="2025-05-23">
+         <url>https://github.com/OpenChrom/openchrom/wiki/changelog#1.5.11</url>
+      </release>
       <release version="1.5.10" date="2025-05-16">
          <url>https://github.com/OpenChrom/openchrom/wiki/changelog#1.5.10</url>
       </release>
