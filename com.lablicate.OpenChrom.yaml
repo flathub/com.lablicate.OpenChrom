@@ -30,15 +30,15 @@ modules:
   - type: archive
     only-arches:
     - x86_64
-    url: https://products.lablicate.com/openchrom/1.5.12/openchrom-lablicate_linux.x86_64_1.5.12.tar.gz
-    sha256: 9488f57a44e96b41eae5cfffcdb432144351199154e038e144c16e6670ffd528
+    url: https://products.lablicate.com/openchrom/1.5.13/openchrom-lablicate_linux.x86_64_1.5.13.tar.gz
+    sha256: 43ab5713d989c3f893ef9ed9fd2ade65bf3d5fa216c597faf0fa22087b706a65
     strip-components: 0
     dest: openchrom
   - type: archive
     only-arches:
     - aarch64
-    url: https://products.lablicate.com/openchrom/1.5.12/openchrom-lablicate_linux.aarch64_1.5.12.tar.gz
-    sha256: 6cd5eae1abfdecf5b97beb14b6b9bcff8e1ee8c0153bd647b08e88838da0ce02
+    url: https://products.lablicate.com/openchrom/1.5.13/openchrom-lablicate_linux.aarch64_1.5.13.tar.gz
+    sha256: 7800ebb54bb0deadaeaef285b7dbb4ffd0683d89ea601c173a354c4b310c6daa
     strip-components: 0
     dest: openchrom
   - type: file
