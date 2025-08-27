@@ -14,6 +14,19 @@ finish-args:
 - --filesystem=/tmp:rw
 - --talk-name=org.freedesktop.secrets
 modules:
+- name: gdk-pixbuf
+  buildsystem: meson
+  config-opts:
+    - '-Dothers=enabled'
+    - '-Dman=false'
+    - '-Dgtk_doc=false'
+    - '-Dtests=false'
+    - '-Dinstalled_tests=false'
+    - '-Dbuiltin_loaders=all'
+  sources:
+    - type: git
+      url: https://gitlab.gnome.org/GNOME/gdk-pixbuf.git
+      tag: 2.42.12
 - name: openchrom
   buildsystem: simple
   build-options:
