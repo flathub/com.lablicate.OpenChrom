@@ -1,6 +1,6 @@
 app-id: com.lablicate.OpenChrom
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 command: openchrom
 finish-args:
@@ -19,14 +19,14 @@ modules:
   config-opts:
   - -Dothers=enabled
   - -Dman=false
-  - -Dgtk_doc=false
+  - -Ddocumentation=false
   - -Dtests=false
   - -Dinstalled_tests=false
   - -Dbuiltin_loaders=all
   sources:
   - type: git
     url: https://gitlab.gnome.org/GNOME/gdk-pixbuf.git
-    tag: 2.42.12
+    tag: 2.44.1
 - name: openchrom
   buildsystem: simple
   build-options:
