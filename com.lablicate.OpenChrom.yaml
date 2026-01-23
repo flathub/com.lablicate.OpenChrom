@@ -26,7 +26,8 @@ modules:
   sources:
   - type: git
     url: https://gitlab.gnome.org/GNOME/gdk-pixbuf.git
-    tag: 2.44.1
+    tag: 2.44.4
+    commit: c9e6d11cbfa085d7b59dd6ad3b1cbfa26348ce13
 - name: openchrom
   buildsystem: simple
   build-options:
