@@ -15,28 +15,28 @@
    </description>
    <screenshots>
       <screenshot type="default">
-         <image>https://www.openchrom.net/assets/openchrom-tvlpEtRB.png</image>
+         <image>https://www.openchrom.net/images/screenshots/openchrom.png</image>
          <caption>Identified substances by mass spectra comparison</caption>
       </screenshot>
       <screenshot>
-         <image>https://www.openchrom.net/assets/openchrom-GC-MS-CE_2KySJ.png</image>
+         <image>https://www.openchrom.net/images/screenshots/openchrom-GC-MS.png</image>
          <caption>Gas chromatography–mass spectrometry</caption>
       </screenshot>
       <screenshot>
-         <image>https://www.openchrom.net/assets/openchrom-FTIR-CSU-h8Or.png</image>
+         <image>https://www.openchrom.net/images/screenshots/openchrom-GC-MS-MS.png</image>
+         <caption>Gas chromatography tandem mass spectrometry</caption>
+      </screenshot>
+      <screenshot>
+         <image>https://www.openchrom.net/images/screenshots/openchrom-FTIR.png</image>
          <caption>Fourier-transform infrared spectroscopy</caption>
       </screenshot>
       <screenshot>
-         <image>https://www.openchrom.net/assets/openchrom-NMR-2-CS8Kf6DU.png</image>
+         <image>https://www.openchrom.net/images/screenshots/openchrom-NMR-2.png</image>
          <caption>Nuclear magnetic resonance spectroscopy</caption>
       </screenshot>
       <screenshot>
-         <image>https://www.openchrom.net/assets/openchrom-PCR-CAeV21vV.png</image>
+         <image>https://www.openchrom.net/images/screenshots/openchrom-PCR.png</image>
          <caption>Polymerase chain reaction</caption>
-      </screenshot>
-      <screenshot>
-         <image>https://www.openchrom.net/assets/openchrom-GC-MS-MS-DeWEEQRp.png</image>
-         <caption>Gas chromatography tandem mass spectrometry</caption>
       </screenshot>
    </screenshots>
    <releases>
