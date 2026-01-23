@@ -4,7 +4,8 @@ runtime-version: '49'
 sdk: org.gnome.Sdk
 command: openchrom
 finish-args:
-- --socket=x11
+- --socket=wayland
+- --socket=fallback-x11
 - --share=ipc
 - --device=dri
 - --share=network
