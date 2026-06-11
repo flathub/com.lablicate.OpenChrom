@@ -21,6 +21,7 @@ modules:
     no-debuginfo: true
   build-commands:
   - mv openchrom ${FLATPAK_DEST}/openchrom/
+  - sed -i 's;-Dopenchrom.update=true;-Dopenchrom.update=false;' ${FLATPAK_DEST}/openchrom/openchrom.ini
   - mkdir -p ${FLATPAK_DEST}/bin
   - ln -sf ${FLATPAK_DEST}/openchrom/openchrom ${FLATPAK_DEST}/bin/
   - install -Dm644 ${FLATPAK_ID}.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
